@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbc98d3f84ad0438e807be03b7b26247, type: 3}
-  m_Name: Tower_1
+  m_Name: Rocket gunner
   m_EditorClassIdentifier: 
-  towerName: Fast
+  towerName: Rocket Launchar
   cost: 75
   health: 50
-  sprite: {fileID: 21300000, guid: a522a8fbc90a54308b398a7b537c4f20, type: 3}
-  color: {r: 0.990566, g: 0, b: 0, a: 1}
-  attackCooldown: 1
-  attackRange: 10
+  sprite: {fileID: 21300000, guid: bcb98c015d1674539ac12412327a5280, type: 3}
+  color: {r: 0.4716981, g: 0.44277322, b: 0.44277322, a: 1}
+  attackCooldown: 100
+  attackRange: 50
   rotationOffset: 0
+  projectile: {fileID: 11400000, guid: 5a184c78d8052a140bff38575bbb383c, type: 2}
